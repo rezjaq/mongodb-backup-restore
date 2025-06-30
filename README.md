@@ -46,7 +46,7 @@ brew install mongodb/brew/mongodb-database-tools
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/mongodb-backup-restore.git
+git clone https://github.com/rezjaq/mongodb-backup-restore.git
 cd mongodb-backup-restore
 ```
 
