@@ -1,0 +1,19 @@
+{
+  "ssh": {
+    "user": "your-ssh-username",
+    "host": "your-production-server-ip"
+  },
+  "mongodb": {
+    "remote_port": 27017,
+    "local_port": 27017,
+    "local_tunnel_port": 27018,
+    "local_restore_uri": "mongodb://username:password@localhost:27017/?authSource=admin"
+  },
+  "backup": {
+    "dump_path": "backup-db"
+  },
+  "logging": {
+    "log_dir": "log-mongo",
+    "retention_days": 15
+  }
+}

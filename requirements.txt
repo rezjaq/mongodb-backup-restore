@@ -1,0 +1,20 @@
+# Python dependencies for MongoDB Backup & Restore Script
+# Semua dependencies yang digunakan adalah built-in Python modules
+# Tidak ada external dependencies yang diperlukan
+
+# Built-in modules yang digunakan:
+# - subprocess (untuk menjalankan command)
+# - time (untuk delay dan timestamp)
+# - os (untuk operasi file system)
+# - glob (untuk pattern matching file)
+# - logging (untuk logging system)
+# - datetime (untuk timestamp dan date operations)
+# - json (untuk parsing config file)
+# - shutil (untuk file operations)
+
+# External tools yang diperlukan (install via package manager):
+# - mongodb-database-tools (mongodump, mongorestore)
+# - ssh client
+# - netcat (nc)
+
+# Untuk instalasi tools eksternal, lihat README.md
